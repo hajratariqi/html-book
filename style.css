@@ -1,0 +1,41 @@
+.container{
+  height: 97vh;
+  font-family: sans-serif;
+}
+.inlineColum{
+  display: flex;
+}
+.container > h1:first-child{
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1{
+  text-transform: uppercase;
+}
+ul{
+  width: 200px;
+  height: 70vh;
+  margin: 20px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+li{
+  margin: 25px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+.content{
+  width: 70vw;
+  height: 68vh;
+  padding: 20px;
+  font-size: 1vw;
+  line-height: 1.8em;
+  border-radius: 20px;
+  box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
